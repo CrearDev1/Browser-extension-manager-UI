@@ -86,6 +86,14 @@ header nav ul li:last-child{
     background-color:hsl(225, 23%, 24%);
     
 }
+.menu-nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+#menu-todas{
+    background-color: hsl(3, 77%, 44%);
+    color: hsl(227, 75%, 14%);
+}
 
 main{
     display: flex;
