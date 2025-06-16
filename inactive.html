@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!--Enlaces a estilos-->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="inactive.css">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><img id="logo" src="assets/images/logo.svg" alt="icono-Browser"></li>
+        <li><img id="sol-icono" src="assets/images/icon-sun.svg" alt="icono/sol"></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    
+    <section class="menu-primero">
+      <div class="title-menu">
+        <h1>Extencion List</h1>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li id="menu-todas"><a href="index.html"> All</a></li>
+          <li id="menu-activas"><a href="active.html">Active</a></li>
+          <li id="menu-inactivas"><a href="inactive.html">Inactive</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="extenciones-contenedor">
+      <article class="extencion-item">
+        <div class="extencion-primero">
+          <div><img class="logo-extencion" src="/assets/images/logo-devlens.svg" alt="Icono"></div>
+          <div>
+            <h3>DevLens</h3>
+            <p>Quickly inspect page layout and visualize elements boundaries</p>
+          </div>
+        </div>
+
+        <div class="extencion-segundo">
+          <input id="btn-remover" type="button" value="Remove">
+          <div class="btn-activar"><div></div></div>
+        </div>
+      </article>
+      <article class="extencion-item">
+        <div class="extencion-primero">
+          <div><img class="logo-extencion" src="/assets/images/logo-style-spy.svg" alt="Icono"></div>
+          <div>
+            <h3>StyleSpy</h3>
+            <p>Instantly analyze and copy CSS from any webpage element.</p>
+          </div>
+        </div>
+
+        <div class="extencion-segundo">
+          <input id="btn-remover" type="button" value="Remove">
+          <div class="btn-activar"><div></div></div>
+        </div>
+      </article>
+      
+    </section>
+  </main>
+</body>
+
+</html>

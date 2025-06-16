@@ -1,115 +1,107 @@
-# Frontend Mentor - Browser extensions manager UI solution
+Aquí tienes la traducción completa al español del archivo `README-template.md` del desafío **Browser Extensions Manager UI** de Frontend Mentor, adaptado para que puedas usarlo directamente en tu proyecto:
 
-This is a solution to the [Browser extensions manager UI challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+---
 
-## Table of contents
+# Frontend Mentor - Solución al desafío de interfaz de gestión de extensiones del navegador
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+Esta es una solución al [desafío de interfaz de gestión de extensiones del navegador en Frontend Mentor](https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de programación construyendo proyectos realistas.
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Tabla de contenidos
 
-## Overview
+* [Resumen](#resumen)
 
-### The challenge
+  * [El desafío](#el-desafío)
+  * [Captura de pantalla](#captura-de-pantalla)
+  * [Enlaces](#enlaces)
+* [Mi proceso](#mi-proceso)
 
-Users should be able to:
+  * [Tecnologías utilizadas](#tecnologías-utilizadas)
+  * [Lo que aprendí](#lo-que-aprendí)
+  * [Desarrollo futuro](#desarrollo-futuro)
+  * [Recursos útiles](#recursos-útiles)
+* [Autor](#autor)
+* [Agradecimientos](#agradecimientos)
 
-- Toggle extensions between active and inactive states
-- Filter active and inactive extensions
-- Remove extensions from the list
-- Select their color theme
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+## Resumen
 
-### Screenshot
+### El desafío
 
-![](./screenshot.jpg)
+Los usuarios deben poder:
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+* Alternar extensiones entre activas e inactivas
+* Filtrar extensiones activas e inactivas
+* Eliminar extensiones de la lista
+* Seleccionar el tema de color
+* Ver el diseño óptimo según el tamaño de pantalla del dispositivo
+* Ver estados hover y focus en todos los elementos interactivos
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+### Captura de pantalla
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Captura de pantalla](./screenshot.jpg)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+> Agrega una captura de tu solución. Puedes usar Firefox (clic derecho > “Tomar captura de pantalla”) o una herramienta como [FireShot](https://getfireshot.com/). Luego edita y reemplaza la ruta en la imagen de arriba.
 
-### Links
+### Enlaces
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+* URL de la solución: [Agrega aquí la URL de tu solución](https://tu-solucion.com)
+* Sitio en vivo: [Agrega aquí la URL del sitio en vivo](https://tu-sitio-en-vivo.com)
 
-## My process
+## Mi proceso
 
-### Built with
+### Tecnologías utilizadas
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+* HTML5 semántico
+* Propiedades personalizadas de CSS (variables)
+* Flexbox
+* CSS Grid
+* Enfoque mobile-first
+* [React](https://reactjs.org/)
+* [Next.js](https://nextjs.org/)
+* [Styled Components](https://styled-components.com/)
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+> Reemplaza esta lista con las herramientas reales que usaste.
 
-### What I learned
+### Lo que aprendí
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+> Usa esta sección para repasar lo que aprendiste durante el proyecto. Aquí tienes un ejemplo de código:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Un poco de código HTML del que estoy orgulloso</h1>
 ```
+
 ```css
-.proud-of-this-css {
+.increible-css {
   color: papayawhip;
 }
 ```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+const funcionQueMeEncanta = () => {
+  console.log('🎉');
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+> Escribir sobre lo aprendido te ayuda a afianzar conocimientos.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### Desarrollo futuro
 
-### Continued development
+> Aquí puedes hablar de aspectos que te gustaría seguir mejorando o aprendiendo: como manejo de estado, patrones de diseño, performance, accesibilidad, etc.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+### Recursos útiles
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+* [Nombre del recurso 1](https://ejemplo.com) - Explica por qué te fue útil.
+* [Nombre del recurso 2](https://ejemplo.com) - Muy útil para entender tal concepto.
 
-### Useful resources
+## Autor
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+* Sitio web - [Tu nombre](https://tu-sitio.com)
+* Frontend Mentor - [@tuusuario](https://www.frontendmentor.io/profile/tuusuario)
+* Twitter - [@tuusuario](https://twitter.com/tuusuario)
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+## Agradecimientos
 
-## Author
+> Si alguien te ayudó, menciona su nombre o referencia. Si hiciste todo solo, puedes eliminar esta sección.
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+---
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+¿Quieres que te ayude a completarlo con tus datos y tecnologías usadas?

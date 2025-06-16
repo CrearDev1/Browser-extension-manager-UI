@@ -107,10 +107,11 @@ main{
    display: grid;
    grid-template-columns: auto;
    justify-items: center;
+   width: 100%;
     
 }
 .extencion-item{
-    background-color: hsl(225, 23%, 24%);
+    background-color: hsl(226, 25%, 17%);
     border: 1px solid hsl(226, 11%, 37%);
     padding:5%;
     border-radius: 15px;
@@ -147,6 +148,10 @@ main{
     color: white;
     background-color: inherit;
     border: 1px solid hsl(226, 11%, 37%);
+}
+#btn-remover:focus{
+    border: 2px solid hsl(3, 77%, 44%);
+    background-color: hsl(226, 11%, 37%);
 }
 
 .btn-activar{
