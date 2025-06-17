@@ -153,6 +153,12 @@ main{
     border: 2px solid hsl(3, 77%, 44%);
     background-color: hsl(226, 11%, 37%);
 }
+#btn-remover:hover{
+    background-color: hsl(3, 77%, 44%);
+    color: hsl(227, 75%, 14%);
+    border: 1px solid hsl(226, 25%, 17%);
+    cursor: pointer;
+}
 
 .btn-activar{
     width: 35px;
@@ -164,12 +170,19 @@ main{
     align-items: center;
     justify-content: end;
 }
+
+
 .btn-activar div{
     width: 20px;
     height: 18px;
     border-radius: 50px;
     background-color:white;
 }
+
+.btn-activar:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width:1220px) {
    .extenciones-contenedor{
         grid-template-columns: auto auto auto;
